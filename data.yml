@@ -11,17 +11,11 @@ jobs:
 locations:
   SRC:
     mappingDefinitions:
-      "2":
-        database: SNOWFLAKE_SAMPLE_DATA
-        schema: TPCH_SF1
       "3":
         database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
   WORK:
     mappingDefinitions:
-      "2":
-        database: PC_COALESCE_DB
-        schema: WORKTEST
       "3":
         database: PC_COALESCE_DB
         schema: WORKPROD
