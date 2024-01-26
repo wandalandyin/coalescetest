@@ -12,7 +12,7 @@ locations:
   SRC:
     mappingDefinitions:
       "3":
-        database: PC_COALESCE_DB
+        database: SNOWFLAKE
         schema: TPCH_SF1
   WORK:
     mappingDefinitions:
