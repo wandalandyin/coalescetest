@@ -18,7 +18,7 @@ locations:
     mappingDefinitions:
       "3":
         database: PC_COALESCE_DB
-        schema: WORKPROD
+        schema: PROD
 macros: {}
 packages: {}
 projects: {}
