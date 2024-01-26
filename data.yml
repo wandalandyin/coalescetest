@@ -11,12 +11,18 @@ jobs:
 locations:
   SRC:
     mappingDefinitions:
-      "3":
-        database: SNOWFLAKE
+      "7":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
+      "8":
+        database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
   WORK:
     mappingDefinitions:
-      "3":
+      "7":
+        database: PC_COALESCE_DB
+        schema: TEST
+      "8":
         database: PC_COALESCE_DB
         schema: PROD
 macros: {}
